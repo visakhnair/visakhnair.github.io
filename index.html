@@ -1,7 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<body>
-<h1>Visakh here...</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Text Analytics by visakhnair</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Text Analytics</h1>
+        <p>Hotel Review Text Analytics</p>
+
+
+        <p class="view"><a href="https://github.com/visakhnair">View My GitHub Profile</a></p>
+
+      </header>
+      <section>
+        <p>Data:</p>
+
+<p>Dataset from <a href="http://www.kavita-ganesan.com/entity-ranking-data">http://www.kavita-ganesan.com/entity-ranking-data</a></p>
+
+<p>We analyze only the hotel reviews from this dataset</p>
+
+<p>The main objectives are:</p>
+
+<pre><code>* Parse and process the review data
+* Perform text analytics on the data
+* Topic modeling
+* Key phrase extraction
+* Sentiment analysis
+* Store to MySQL and create dashboards
+</code></pre>
+
+<p>For performing the text analytics, we make use of two APIs - Azure text analytics and Text Processing.</p>
+
+<p>Dashboards:</p>
+
+<pre><code>1. For each hotel in each city, plot the number of reviews over time
+2. For each hotel in each city, plot the number of positive and negative reviews over time
+3. For each city, create a word cloud with the key phrases
+4. For each city, aggregate the sentiment
+5. If possible, plot the hotels on Geo maps
+6. For negative sentiment, pull the review title and key phrases
+</code></pre>
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
 </html>
